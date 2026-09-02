@@ -1,0 +1,77 @@
+{
+  "id": "/",
+  "name": "Med 360 - Medical Exam Preparation by Dr. Jaanvi",
+  "short_name": "Med 360",
+  "description": "Premium AMC & USMLE medical exam preparation platform by Dr. Jaanvi featuring 10,000+ MCQs, clinical case studies, timed mock examinations, OSCE clinical stations, high-yield clinical pearls, performance analytics, and mistake revision.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0a0f1d",
+  "theme_color": "#0284c7",
+  "lang": "en-US",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "categories": ["education", "medical"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Question Bank",
+      "short_name": "Q-Bank",
+      "description": "Practice AMC & USMLE questions",
+      "url": "/?tab=bank",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Mock Exams",
+      "short_name": "Mocks",
+      "description": "Start a full timed AMC examination",
+      "url": "/?tab=mock",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "OSCE Practice",
+      "short_name": "OSCE",
+      "description": "Interactive clinical stations",
+      "url": "/?tab=osce",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
